@@ -3,7 +3,8 @@ import { motion } from "framer-motion";
 import "./index.css";
 
 // Backend API configuration
-const API_BASE_URL = "http://3.94.123.225:5001";
+const API_BASE = "https://jitendrakolli.me";
+
 
 function App() {
   const [text, setText] = useState("");
